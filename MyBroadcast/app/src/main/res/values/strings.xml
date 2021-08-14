@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="Dynamic">dynamicBroadcast</string>
+    <string name="Nomal">nomalBroadcast</string>
+    <string name="Ordered">orderedBroadcast</string>
+    <string name="tv">我是文本</string>
+</resources>
