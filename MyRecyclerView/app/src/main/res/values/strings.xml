@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string name="allowconnect">允许无线网络接入</string>
+    <string name="wlan">无线网络</string>
+    <string name="more_setting">更多设置</string>
+    <string name="title_activity_simple_recycler_view">SimpleRecyclerView</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="settingsname">
+        <item>日期和时间</item>
+        <item>语言与输入法</item>
+        <item>全面屏</item>
+        <item>按键快捷方式</item>
+        <item>悬浮球</item>
+        <item>单手模式</item>
+        <item>无障碍</item>
+        <item>开发者选项</item>
+    </string-array>
+
+    <integer-array name="settingsim">
+        <item>@drawable/assistant_touch_awake_default</item>
+        <item>@drawable/assistant_touch_awake_pressed</item>
+        <item>@drawable/bg_index4</item>
+        <item>@drawable/bg_index5</item>
+        <item>@drawable/bg_index6</item>
+        <item>@drawable/ic_content_explore</item>
+        <item>@drawable/logo_grey</item>
+        <item>@drawable/lrc_play</item>
+    </integer-array>
+</resources>
