@@ -1,0 +1,2 @@
+rootProject.name = "MyDataStorage"
+include ':app'
