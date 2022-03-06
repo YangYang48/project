@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- description -->
+  <string name="app_name">手机解锁工具</string>
+  <string name="app_new_version_fmt">发现新版本: %s</string>
+  <string name="app_version_fmt">版本: %s</string>
+  <!-- Account Login -->
+  <string name="err_user_empty">请填写帐号</string>
+  <string name="err_pwd_empty">请填写密码</string>
+  <string name="err_verify_code_invalid">验证码输入错误</string>
+  <string name="err_pwd_invalid">密码不正确</string>
+  <string name="err_user_not_exist">帐号不存在</string>
+  <string name="err_login_too_fast">您的操作频率过快，请稍后再试。(14MIN)</string>
+  <string name="err_login_plus_sms_code">请在登录输入密码的末尾添加六位动态码</string>
+  <string name="err_dynamic_toke_invalid">动态令牌输入错误</string>
+  <string name="err_network_exception">网络异常</string>
+  <string name="err_login_other">登录失败</string>
+  <string name="err_account_need_verify">请在弹出的网页上进行验证</string>
+  <string name="login_processing">登录中</string>
+  <string name="Back">返回</string>
+  <string name="Forward">前进</string>
+  <string name="Reload">重新加载</string>
+
+  <!-- unlock rights check -->
+  <string name="region_err">账号申请地区查询失败，请稍后重试</string>
+  <string name="unlock_rights_checking">正在验证您的账号是否支持解锁</string>
+  <string name="unlock_rights_deny">您当前的账号暂无解锁资格</string>
+  <string name="unlock_apply_help">请前往unlock.update.miui.com申请解锁资格或查看申请进度</string>
+  <string name="goto">前往</string>
+  <string name="rights_check_fail">账号查询异常[%s]</string>
+  <string name="retry">重试</string>
+  <!-- connect help -->
+  <string name="conx_emtpy">当前未连接手机</string>
+  <string name="conx_ok">已连接手机</string>
+  <string name="miphone">小米手机</string>
+  <string name="unlock">解锁</string>
+  <string name="unlock_checking_label">正在检测设备状态...</string>
+  <string name="unlock_clearn_data">该设备解锁时会清除用户数据</string>
+  <string name="unlock_no_clearn_data">该设备解锁时不会清除用户数据</string>
+  <!-- unlock -->
+  <string name="unlock_fail">解锁失败</string>
+  <string name="reboot_phone">重启手机</string>
+  <string name="reunlock">重新解锁</string>
+  <string name="unlock_success">解锁成功</string>
+  <string name="verifing_device">正在验证设备信息</string>
+  <string name="unlocking">正在解锁</string>
+  <string name="unlock_finished">解锁完毕</string>
+  <string name="verified_fail">验证失败</string>
+  <string name="verified_already_unlocked">设备已解锁</string>
+  <string name="verified_no_band">当前账号未绑定此设备</string>
+  <string name="missing_phone">未连接小米手机</string>
+  <string name="cannot_read_phone_info">无法获取手机信息，请重新连接</string>
+  <string name="account_not_bind">当前解锁帐号与手机中登录的帐号不一致</string>
+  <string name="already_unlocked">无需重复解锁</string>
+  <string name="unkown_error">未知错误，稍后重试</string>
+  <string name="unkown_lockstatus_fmt">用户解锁状态:%d</string>
+  <!-- about dalog-->
+  <string name="about_new_explain">（已是最新版本）</string>
+  <string name="about_check_drive_yse">已经安装</string>
+  <string name="about_check_drive_no">尚未安装</string>
+  <!-- unlock error code-->
+  <string name="code_xxxxx">%d:未知错误，稍后重试</string>
+  <string name="code_10000">10000:请求参数异常</string>
+  <string name="code_10001">10001:接口签名验证失败</string>
+  <string name="code_10002">10002:同一个IP请求次数太频繁</string>
+  <string name="code_10003">10003:服务器内部错误</string>
+  <string name="code_10004">10004:请求已过期</string>
+  <string name="code_10005">10005:Nonce请求无效</string>
+  <string name="code_10006">10006:客户端版本过低</string>
+  
+  <string name="code_20030">不同设备的解锁间隔需要大于30天</string>
+  <string name="code_20031">请在手机中进入“设置-开发者选项-设备解锁状态”绑定账号和设备。</string>
+  <string name="code_20032">生成解锁所需的签名值失败</string>
+  <string name="code_20033">账号权限不足或者账号受限</string>
+  <string name="code_20034">当前账号无法解锁此设备</string>
+  <string name="code_20035">请前往unlock.update.miui.com下载最新的解锁工具</string>
+  <string name="code_20036">请在此设备上登录该账号%d小时后再尝试解锁设备</string>
+  <string name="code_20037">解锁次数已达上限</string>
+  <string name="code_20040">手机使用未达到指定时间，无法解锁</string>
+  
+  <!--Msg box-->
+  <string name="unlock_warn">解锁手机会清除所有手机数据，是否继续解锁手机？</string>
+  <string name="unlock_clear_api_err">解锁手机有清除所有手机数据的风险，是否要继续解锁手机？</string>
+  <string name="is_unlock_msg">确认解锁</string>
+</resources>
