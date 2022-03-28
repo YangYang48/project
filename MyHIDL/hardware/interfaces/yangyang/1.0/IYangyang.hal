@@ -1,0 +1,6 @@
+package android.hardware.yangyang@1.0;
+
+interface IYangyang{
+    helloWorld(string name) generates (string result);
+};
+

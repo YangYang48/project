@@ -1,0 +1,5 @@
+service yangyang_service_hal /vendor/bin/hw/android.hardware.yangyang@1.0-service
+    class hal
+    user system
+    group system
+
