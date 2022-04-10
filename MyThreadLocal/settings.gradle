@@ -1,0 +1,3 @@
+rootProject.name = "MyThreadLocal"
+include ':app'
+include ':lib'
