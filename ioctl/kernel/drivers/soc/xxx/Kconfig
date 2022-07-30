@@ -1,0 +1,6 @@
+config IOCTL_TEST
+    bool "This is IOCTL_TEST"
+    default y
+    help
+      IOCTL TEST support permissions for users and groups beyond the owner/group/world scheme.
+      If you don't know what Access Control Lists are, say N.
