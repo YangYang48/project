@@ -36,7 +36,10 @@ public class JavaSocketServer {
             while(true){
                 socket = serverSocket.accept();//等待一个客户端的连接，在连接之前，此方法是阻塞的
                 Log.d(TAG, "->>>connect to"+socket.getInetAddress()+":"+socket.getLocalPort());
-                new ConnectThread(socket).start();
+                ConnectThread ct = new ConnectThread(socket);
+                //设置线程优先级，范围为[1,10],默认5
+                ct.setPriority(4);
+                ct.start();
             }
 
         } catch (IOException e) {
@@ -65,6 +68,7 @@ public class JavaSocketServer {
                     //服务端的消息，只是在客户端的基本上加了一个符号
                     dos.writeUTF(msgRecv + i);
                     dos.flush();
+
                 }
             } catch (IOException e) {
                 e.printStackTrace();

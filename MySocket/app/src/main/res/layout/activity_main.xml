@@ -54,6 +54,73 @@
             android:layout_marginTop="10dp"
             android:text="服务端返回消息："
             android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/udp_getAdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取UDP IP地址"/>
+
+            <TextView
+                android:id="@+id/udp_adress"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/udp_startServer"
+            android:text="启动UDP服务"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/udp_message"
+            android:layout_marginTop="10dp"
+            android:hint="请输入发送信息"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/udp_connect"
+            android:text="UDP连接发送"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/udp_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="UDP服务端返回消息："
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/content"
+            android:hint="发送广播/组播内容 请输入发送信息"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onBroadcastSend"
+                android:text="广播发送" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onMulticastSend"
+                android:text="组播发送" />
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
